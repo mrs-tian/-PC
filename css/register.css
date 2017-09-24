@@ -1,0 +1,398 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.top { 
+    height:30px;
+    width: 100%;
+    background: #646464; 
+}
+.top_content {
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top_content > div >p {
+    line-height: 30px;
+    font-size: 12px;
+    color: #c8c8c8;
+    padding-left: 57px;
+    padding-right: 30px;
+}
+.top_content_left {
+    float: left;
+    background: url(/images/huanying.png) no-repeat 30px center;
+    background-size: 16px 16px;
+    
+}
+.top_content_right {
+    float: right;
+    background: url(/images/dianhua.png) no-repeat 30px center;
+    background-size: 16px 16px;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    background: #505050;
+}
+.header_content {
+    height: 60px;
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.header_content_left {
+    float: left;
+    margin: 13px 0 13px 30px;
+    height: 34px;
+}
+.header_content_left >img {
+    height: 34px;
+}
+.header_nav {
+    float: right; 
+    height: 60px;
+    position: relative; 
+}
+.header_nav > li {
+   float: left;
+   height: 60px;
+}
+.header_nav > li > p {
+   line-height: 60px;
+   font-size: 16px; 
+   color: #c8c8c8;
+   padding: 0 30px;
+   cursor: pointer;
+}
+.header_nav > .actived >p {
+    color: #63c63c;
+}
+.nav_shade {
+    position: absolute;
+    left: -9px;
+    top:0;
+    height: 60px;
+    width: 110px;
+    background: url(/images/xuanzhong.png) no-repeat bottom;
+} 
+
+.reg_content {
+    width: 100%;
+    overflow: hidden;
+    background: url(/images/register/denglu-02.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.reg_bg {
+    height: 100%;
+    /* width: 50%; */
+    _width: 1000px;
+    min-width: 1000px;
+    width: 50%;
+    margin:0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.reg_from {
+    height: 442px;
+    width: 32%;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    left: 68%;
+    top: 10%;
+}
+.reg_left {
+    width: 62%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+
+}
+.reg_form_logo {
+    height: 160px;
+    width: 320px;
+    line-height: 0;
+}
+.reg_form_logo > img {
+    height: 125px;
+    width: 100px;
+    padding-left: 110px;
+}
+
+.reg_yzm,.reg_tel{
+    height: 42px;
+    width: 258px;
+    border: 1px solid #b4b4b4; 
+    border-radius:21px;
+    margin: 0 auto;
+}
+.reg_tel {
+    background: url(/images/register/shouji.png) no-repeat 20px 12px;
+    background-size: 14px 20px;
+    margin-bottom: 20px;
+}
+.reg_yzm{
+    background: url(/images/register/mima.png) no-repeat 20px 12px;
+    background-size: 17px 20px;  
+    margin-bottom: 10px;
+}
+.reg_tel >input {
+    margin-left: 46px;
+    font-size: 16px;
+    border: none;
+    width: 180px;
+    height: 20px;
+    margin-top: 11px;
+    outline:none;
+    color: #969696;
+}
+.reg_yzm >input {
+    margin-left: 46px;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 11px;
+    outline:none;
+    color: #969696;
+}
+.reg_yzm >div {
+    float: right;
+    width: 100px;
+    height: 30px;
+    background: #b4b4b4;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 6px;
+    margin-right: 6px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.reg_tishi {
+  visibility: hidden;
+  padding-left: 52px;
+  color: #f00;
+  font-size: 14px;
+  line-height: 14px;
+}
+.reg_btn {
+    height: 44px;
+    width: 260px;
+    border-radius: 22px;
+    background: #b4b4b4;
+    margin: 10px auto 0;
+    position: relative;
+    cursor: pointer;
+}
+/* @-webkit-keyframes fateindex {
+    0%{
+        z-index: 1;
+        opacity: 1;
+    }
+    90%{
+        z-index: 1;
+        opacity: 0;
+    }
+    100%{
+       z-index: 9;
+       opacity: 1;
+       text-shadow: 0 0 2px #fff;
+    }
+}
+@keyframes fateindex {
+    0%{
+        z-index: 1;
+        opacity: 1;
+    }
+    90%{
+        z-index: 1;
+        opacity: 0;
+    }
+    100%{
+       z-index: 9;
+       opacity: 1;
+       text-shadow: 0 0 2px #fff;
+    }
+}
+
+.fateindex {
+  -webkit-animation-name: fateindex;
+  animation-name: fateindex;
+} */
+.reg_btn > p {
+    display: block;
+    height: 44px;
+    width: 260px;
+    position: absolute;
+    left: 0;
+    top:0;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    z-index: 9;
+/*     -webkit-animation: fateindex .6s 1 linear both .4s;
+    animation: fateindex .6s 1 linear both .4s;  */
+} 
+@-webkit-keyframes fatewidth {
+    0%{
+        width: 0;
+    }
+    2%{
+        width: 0;
+        height: 44px;
+    }
+    80%{
+        width: 230px;
+        height: 60px; 
+    }
+    90%{
+        width: 255px;
+        height: 70px;  
+    }
+    100%{
+       width: 260px;
+       height: 76px;
+    }
+}
+@keyframes fatewidth {
+    0%{
+        width: 0;
+    }
+    2%{
+        width: 0;
+        height: 44px;
+    }
+    80%{
+        width: 230px;
+        height: 60px; 
+    }
+    90%{
+        width: 255px;
+        height: 70px;  
+    }
+    100%{
+       width: 260px;
+       height: 76px;
+    }
+}
+
+.fatewidth {
+  -webkit-animation-name: fatewidth;
+  animation-name: fatewidth;
+}
+.reg_youqi {
+    display: none;
+    height: 76px;
+    width: 260px;
+    background: url(/images/register/denglu.png) no-repeat left top;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 6; 
+    -webkit-animation: fatewidth .9s 1 linear both .4s;
+    animation: fatewidth .9s 1 linear both .4s; 
+}
+@-webkit-keyframes fateleft {
+    0%{
+        opacity: 1
+        left:0;
+    }
+    1%{
+       left: 0; 
+    }
+    79%{ 
+       left: 230px;
+    }
+    89%{
+        left: 255px;
+    }
+    99%{
+        left: 260px;
+        opacity: 1
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fateleft {
+  0%{
+       opacity: 1
+       left:0;
+    }
+    1%{
+       left: 0; 
+    }
+    79%{ 
+       left: 230px;
+    }
+    89%{
+        left: 255px;
+    }
+    99%{
+        left: 260px;
+        opacity: 1
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.fateleft {
+  -webkit-animation-name: fateleft;
+  animation-name: fateleft;
+}
+.reg_shuazi {
+    display: none;
+    height: 48px;
+    width: 56px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    z-index: 6; 
+    background: url(/images/register/shuazi.png) no-repeat left top;
+    -webkit-animation: fateleft .9s 1 linear both .4s;
+    animation: fateleft .9s 1 linear both .4s; 
+}
+.reg_xieyi {
+    height: 20px;
+    margin-left: 41px;
+    margin-top: 28px;
+    position: relative;
+}
+.reg_xieyi >div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-top: 3px;
+    background: #f0f0f0;
+        cursor: pointer;
+}
+.reg_xieyi >p {
+    float: left;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #b4b4b4;
+        cursor: pointer;
+}
+.reg_xieyi > .reg_xieyi_1 {
+    padding: 0 5px;
+}
+.reg_xieyi > b {
+    float: left;
+    font-size: 12px;
+}
+.on_img {
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    height: 14px;
+    width: 15px;
+}

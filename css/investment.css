@@ -1,0 +1,233 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.zs_content {
+    height: 400px;
+    width: 52.083333%;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.02, 1.02, 1.02);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.02, 1.02, 1.02);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+.zs_content >div:nth-child(2) {
+    -webkit-animation: pulse .6s 1 linear both .1s;
+    animation: pulse .6s 1 linear both .1s; 
+}
+.zs_content >div:nth-child(3) {
+    -webkit-animation: pulse .6s 1 linear both .2s;
+    animation: pulse .6s 1 linear both .2s;   
+}
+.zs_content >div:nth-child(1) {
+    -webkit-animation: pulse .6s 1 linear both .3s;
+    animation: pulse .6s 1 linear both .3s;   
+}
+.zs_content >div:nth-child(4) {
+    -webkit-animation: pulse .6s 1 linear both .4s;
+    animation: pulse .6s 1 linear both .4s;   
+}
+
+.zs_content > div  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height:auto;
+    width: 23.5%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.zs_content > div >img {
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: -1;
+  height: 100%;
+}
+/*  工长  */
+.zs_gongzhang {
+    left: 0;
+/*     background: url(../images/zhaoshang/gongzhang-00.jpg) no-repeat left top;
+background-size: 100% 100%; */
+}
+.zs_gongzhang_hover {
+    left: 0; 
+/*     background: url(../images/zhaoshang/gongzhang-01.jpg) no-repeat left top;
+background-size: 100% 100%; */
+}
+.zs_content > .zs_gongzhang_active {
+/*     background: url(../images/zhaoshang/gongzhang-02.jpg) no-repeat left top;
+background-size: 100% 100%; */
+    z-index: 9;
+    box-shadow: 0 0 12px #e4e4e4;
+}
+.zs_content> div> .zs_form_box {
+    display: none;
+}
+.zs_content>  .zs_gongzhang_active > .zs_form_box {
+    display: block;
+}
+/*   绿色品牌  */
+.zs_lvse {
+    left: 25.5%;
+/*     background: url(../images/zhaoshang/lvsepinpai-00.jpg) no-repeat left top;
+background-size: 100% 100%; */
+}
+.zs_lvse_hover {
+    left: 25.5%;
+/*     background: url(../images/zhaoshang/lvsepinpai-01.jpg) no-repeat left top;
+background-size: 100% 100%;  */
+}
+
+.zs_content > .zs_lvse_active{
+/*     background: url(../images/zhaoshang/lvsepinpai-02.jpg) no-repeat left top;
+background-size: 100% 100%; */
+    z-index: 9;
+    box-shadow: 0 0 12px #e4e4e4;
+}
+.zs_content> .zs_lvse_active > .zs_form_box {
+    display: block;
+}
+/*  设计师  */
+.zs_shejishi {
+    left:51%;
+/*     background: url(../images/zhaoshang/shejishi-00.jpg) no-repeat left top;
+background-size: 100% 100%;  */
+}
+.zs_shejishi_hover {
+    left:51%;
+/*     background: url(../images/zhaoshang/shejishi-01.jpg) no-repeat left top;
+background-size: 100% 100%;  */
+}
+.zs_content > .zs_shejishi_active {
+/*     background: url(../images/zhaoshang/shejishi-02.jpg) no-repeat left top;
+background-size: 100% 100%; */
+    z-index: 9;
+    box-shadow: 0 0 12px #e4e4e4;
+}
+.zs_content > .zs_shejishi_active > .zs_form_box {
+    display: block;
+}
+
+/*   装修公司  */
+.zs_zhuangxiu {
+    left: 76.5%;
+/*     background: url(../images/zhaoshang/zhuangxiugongsi-00.jpg) no-repeat left top;
+background-size: 100% 100%;  */
+}
+.zs_zhuangxiu_hover {
+    left: 76.5%;
+/*     background: url(../images/zhaoshang/zhuangxiugongsi-01.jpg) no-repeat left top;
+background-size: 100% 100%;  */
+}
+.zs_content > .zs_zhuangxiu_active {
+/*     background: url(../images/zhaoshang/zhuangxiugongsi-02.jpg) no-repeat left top;
+background-size: 100% 100%; */
+    z-index: 9;
+    box-shadow: 0 0 12px #e4e4e4;
+}
+.zs_content > .zs_zhuangxiu_active >.zs_form_box {
+    display: block;
+}
+
+.zs_form_box {
+    height: 0;
+    width: 58.6%;
+    overflow: hidden;
+    float:right;
+    position: relative;
+}
+.zs_form {
+   width: 100%;
+}
+.zs_form>input {
+    display: block;
+    height: 12%;
+    vertical-align:baseline;
+    width: 78.5%;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto 2.3%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+.zs_form>.zs_form_2 {
+   margin-top: 67px;
+}
+.zs_form>div {
+  height: 45px;
+  width: 78.6%;
+  border-radius: 5px;
+  margin: 17% auto 0;
+  overflow: hidden;
+}
+.zs_form>div>p  {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  text-align: center;
+  height: 100%;
+  line-height: 45px;
+  background: #63c63c;
+}
+.zs_form_top  {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  right:15px;
+  top:15px;
+}
+

@@ -1,0 +1,294 @@
+/* 鼠标下滑  绿色品牌 >>> 装修公司 */
+@-webkit-keyframes contentUp {
+    0%{
+      top:100%;
+      opacity: 1;
+    }
+    100%{
+      top: 0px;
+    }
+}
+@keyframes contentUp  {
+    0%{
+      top:100%;
+      opacity: 1;
+    }
+    100%{
+      top: 0px;
+    }
+}
+.contentUp  {
+  -webkit-animation-name: contentUp;
+  animation-name: contentUp;
+}
+.home_content > .home_content_actived_up {
+    display: block;
+    z-index: 9;
+    top: 0px; 
+    opacity: 1;
+    -webkit-animation: contentUp .4s 1 linear both .01s;
+    animation: contentUp .4s 1 linear both .01s;
+}
+@-webkit-keyframes contentupprev {
+    0%{
+      top:0px;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top: -100%;
+    }
+}
+@keyframes contentupprev  {
+    0%{
+      top:0px;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top: -100%;
+    }
+}
+.contentupprev  {
+  -webkit-animation-name: contentupprev;
+  animation-name: contentupprev;
+} 
+.home_content > .home_content_actived_upprev {
+    display:block; 
+    opacity: 0;
+    top: -100%;
+    -webkit-animation: contentupprev .4s 1 linear both .01s;
+    animation: contentupprev .4s 1 linear both .01s;
+} 
+/* 鼠标上滑  绿色品牌 装修公司 */
+@-webkit-keyframes contentDown {
+    0%{
+      top:-100%;
+      opacity: 1;
+    }
+    100%{
+      top: 0px;
+    }
+}
+@keyframes contentDown {
+    0%{
+      opacity: 1;
+      top:-100%;
+    }
+    100%{
+      top: 0px;
+    }
+}
+.contentDown  {
+  -webkit-animation-name: contentDown;
+  animation-name: contentDown;
+}
+.home_content > .home_content_actived_down {
+    display: block;
+    top: 0px;
+    -webkit-animation: contentDown .4s 1 linear both .01s;
+    animation: contentDown .4s 1 linear both .01s;
+}
+@-webkit-keyframes contentdownprev {
+    0%{
+      top:0px;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top: 100%;
+    }
+}
+@keyframes contentdownpresv  {
+    0%{
+      top:0px;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top: 100%;
+    }
+}
+.contentdownprev  {
+  -webkit-animation-name: contentdownprev;
+  animation-name: contentdownprev;
+} 
+.home_content > .home_content_actived_downprev {
+    display:block; 
+    opacity: 0;
+    top: 100%;
+    -webkit-animation: contentdownprev .4s 1 linear both .01s;
+    animation: contentdownprev .4s 1 linear both .01s;
+} 
+
+@-webkit-keyframes contentUpright {
+    0%{
+      right: 0;
+      opacity: 1;
+    }
+    50%{
+      right:-50%;
+      opacity: 0;
+    }
+    100%{
+      right:0; 
+      opacity: 1;
+    }
+}
+@keyframes contentUpright  {
+    0%{
+      right: 0;
+      opacity: 1;
+    }
+    50%{
+      right:-50%;
+      opacity: 0;
+    }
+    100%{
+      right:0; 
+      opacity: 1;
+    }
+}
+.contentUpright  {
+  -webkit-animation-name: contentUpright;
+  animation-name: contentUpright;
+}
+.home_content > .home_content_actived_up >.home_content3_1 {
+    right:0; 
+    opacity: 1;
+    -webkit-animation: contentUpright .8s 1 linear both .01s;
+    animation: contentUpright .8s 1 linear both .01s;
+}
+.home_content > .home_content_actived_up >.home_content7_1 {
+    right:0; 
+    opacity: 1;
+    -webkit-animation: contentUpright .8s 1 linear both .01s;
+    animation: contentUpright .8s 1 linear both .01s;
+}
+@-webkit-keyframes contentUpright2 {
+    0%{
+      right:0;
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+     right:-50%; 
+    }
+    100%{
+      opacity: 1;
+      right:0; 
+    }
+}
+@keyframes contentUpright2  {
+    0%{
+      right:0;
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+     right:-50%; 
+    }
+    100%{
+      opacity: 1;
+      right:0; 
+    }
+}
+.contentUpright2  {
+  -webkit-animation-name: contentUpright2;
+  animation-name: contentUpright2;
+}
+.home_content > .home_content_actived_down > .home_content3_1 {
+    opacity: 1;
+    right:0; 
+    -webkit-animation: contentUpright2 .8s 1 linear both .01s;
+    animation: contentUpright2 .8s 1 linear both .01s;
+}
+.home_content > .home_content_actived_down > .home_content7_1 {
+    opacity: 1;
+    right:0; 
+    -webkit-animation: contentUpright2 .8s 1 linear both .01s;
+    animation: contentUpright2 .8s 1 linear both .01s;
+}
+
+@-webkit-keyframes contentUpleft {
+    0%{
+      right:0px;
+      top:0;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top:100%;
+      right:-50%;
+    }
+}
+@keyframes contentUpleft  {
+    0%{
+      right:0px;
+      top:0;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      top:100%;
+      right:-50%;
+    }
+}
+.contentUpleft  {
+  -webkit-animation-name: contentUpleft;
+  animation-name: contentUpleft;
+}
+.home_content > .home_content_actived_upprev >.home_content3_1 {
+    opacity: 0;
+    top:100%;
+    right:-50%;
+    -webkit-animation: contentUpleft .4s 1 linear both .01s;
+    animation: contentUpleft .4s 1 linear both .01s;
+}
+.home_content > .home_content_actived_upprev >.home_content7_1 {
+    -webkit-animation: contentUpleft .4s 1 linear both .01s;
+    animation: contentUpleft .4s 1 linear both .01s;
+}
+@-webkit-keyframes contentUpleft2 {
+    0%{
+      right:0px;
+      top:0;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      right:-50%;
+      top:-100%;
+    }
+}
+@keyframes contentUpleft2  {
+    0%{
+      right:0px;
+      top:0;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      right:-50%;
+      top:-100%;
+    }
+}
+.contentUpleft2  {
+  -webkit-animation-name: contentUpleft2;
+  animation-name: contentUpleft2;
+}
+
+.home_content > .home_content_actived_downprev > .home_content3_1 {
+    opacity: 0;
+    right:-50%;
+    top:-100%;
+    -webkit-animation: contentUpleft2 .4s 1 linear both .01s;
+    animation: contentUpleft2 .4s 1 linear both .01s;
+}
+.home_content > .home_content_actived_downprev > .home_content7_1 {
+    opacity: 0;
+    right:-50%;
+    top:-100%;  
+    -webkit-animation: contentUpleft2 .4s 1 linear both .01s;
+    animation: contentUpleft2 .4s 1 linear both .01s;
+}

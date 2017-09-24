@@ -1,0 +1,48 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.web_content_box {
+    height: auto;
+    width: 52.083333%;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.web_content {
+     position: absolute;
+     left: 0.98%;
+     top: 0;
+     bottom: 0;
+     margin: auto 0;
+     width: 39.3%;
+     height: auto;
+     overflow: hidden;
+}
+.web_content > .web_shouji {
+    width: 100%;
+    height: auto;
+}
+.web_content > .web_dingwei {
+    position: absolute;
+    left: 18.7%;
+    top: 11.0%;
+    width: 65.3%;
+    height: auto;
+    z-index: 2;
+}
+.web_erweima {
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    width:42%;
+    height: auto; 
+}
+.web_erweima > img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,228 @@
+.at_cnt {
+	height: 630px;
+    width: 52.083333%;
+    min-width: 800px;
+	margin: 0 auto; 
+}
+.at_cnt_nav {
+	height: 110px;
+	width: 100%;
+	padding-top: 50px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.at_cnt_nav >li {
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+    width: 15%;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #505050;
+    background: #f4f5fa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.at_cnt_nav > .at_cnt_nav_active {
+    background: #63c63c;
+    color: #fff;
+}
+.at_cnt_content {
+    height: 520px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.at_cnt_content_left {
+    position: absolute;
+    left: 0 ;
+    top:0;
+    z-index: 5;
+    height: auto;
+    width: 29.6%;
+    overflow: hidden;
+}
+.at_cnt_content_left >img {
+	height: auto;
+	width: 100%;
+}
+.at_cnt_content_right {
+	position: absolute;
+    right:0;
+    top:0;
+    z-index: 2;
+	height: auto;
+	width: 74.5%;
+}
+/*   公司简介    */
+.at_cnt_content_a {
+	height: auto;
+	width: 99.329%;
+	padding-right: 45px;
+	overflow: hidden;
+}
+.at_cnt_content_a1 {
+	width: 100%;
+	height: auto;
+	padding-top:35px;
+}
+.at_cnt_content_a1> img {
+    height: auto;
+    width: 45.47%;
+
+}
+.at_cnt_content_a2 {
+	padding-top: 40px;
+	width: 100%;
+	height: auto;
+}
+.at_cnt_content_a2 > img {
+	width: 100%; 
+	height: auto;
+}
+.at_cnt_content_a3 {
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	background: #f4f5fa; 
+	overflow: hidden;
+}
+.at_cnt_content_a3>div {
+	float: left;
+    height: 100%;
+    width: 10px;
+	background: #63c63c;
+}
+.at_cnt_content_a3 > p {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    text-indent:2em;
+}
+/*  业务模式  */
+.at_cnt_content_b {
+    height: auto;
+	width: 100%;
+	overflow: hidden;  
+}
+.at_cnt_content_b1 {
+    height: auto;
+    width: 99.329%;
+    padding-top: 30px;
+}
+.at_cnt_content_b1 > img {
+    width: 45.43%;
+}
+.at_cnt_content_bct {
+    margin-top: 30px;
+    height: auto;
+    width: 100%; 
+    overflow-x:hidden; 
+}
+.at_cnt_content_bct > div {
+    height: auto;
+    width: 86.577181%;
+    padding: 2.68% 6.7%;
+    margin-bottom:20px; 
+    overflow: hidden;
+}
+.at_cnt_content_bct > div > div  {
+    float: left;
+    height: 100%;
+    width: 12.4%;
+    line-height: 100%;
+    font-size: 48px;
+    margin-top: 5px;
+    margin-right: 4.65%;
+    border-right: 1px solid #b4b4b4;
+}
+.at_cnt_content_bct>div>p {
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    text-indent: 2em;
+}
+.at_cnt_content_bct>div > p > span {
+	font-size: 12px;
+	color: #666;
+	font-weight: bold;
+}
+.at_cnt_content_bct > div:hover {
+	box-shadow: 0 0 5px #b4b4b4;
+
+}
+.at_cnt_content_bct > div:hover >div {
+	color: #63c63c;
+}
+/* 关于我们 */
+.at_cnt_content_c {
+    height: auto;
+    width: 99.329%;
+	padding-right: 45px;
+	overflow: hidden;
+}
+.at_cnt_content_c1 {
+	width: 100%;
+	height: auto;
+	padding-top:30px;
+}
+.at_cnt_content_c1 > img {
+    height: auto;
+    width: 47.142857%;
+}
+.at_cnt_content_c > .at_cnt_content_c2 {
+    padding-top: 45px;
+    width: 100%;
+    height: auto;
+}
+.at_cnt_content_c > .at_cnt_content_c2 > img {
+    width: 100%;
+}
+.at_cnt_content_c > .at_cnt_content_c3 {
+	margin-top: 25px;
+	width: 100%;
+	height: auto;
+	background: #f4f5fa; 
+	overflow: hidden;
+}
+.at_cnt_content_c > .at_cnt_content_c3>div {
+	float: left;
+    height: 100%;
+    width: 10px;
+	background: #63c63c;
+}
+.at_cnt_content_c > .at_cnt_content_c3 > p {
+    padding: 0 35px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+}
+.at_cnt_content_c > .at_cnt_content_c3 > .at_cnt_content_c31{
+    padding-top: 9px;
+}
+.at_cnt_content_c > .at_cnt_content_c3 > .at_cnt_content_c3{
+   padding-bottom: 9px;
+}
+.at_cnt_content_cl {
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+.at_cnt_content_cr {
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+.at_cnt_content_right >div {
+	display: none;
+}
+.at_cnt_content_right >.actived {
+   display: block;
+}
